@@ -6,3 +6,39 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+body {
+    background-color: #F6EACB;
+    color: #987070;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar  {
+    margin-right: auto;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #987070;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.nav-link {
+    color: #E0A75E;
+}
+
