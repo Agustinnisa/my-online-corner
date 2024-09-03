@@ -25,7 +25,7 @@ body {
 }
 
 .navbar  {
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .navbar a {
@@ -42,3 +42,47 @@ body {
     color: #E0A75E;
 }
 
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 5%;
+}
+
+.home-content {
+    max-width: 600px;
+    margin-left: auto;
+}
+
+.home-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+    text-align: justify;
+}
+
+.home-content .btn-box {
+    display: inline-flex;
+    justify-content: center;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    background: #BC9F8B;
+    border: 2px solid #BC9F8B;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #ededed;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
