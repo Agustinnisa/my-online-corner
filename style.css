@@ -57,12 +57,12 @@ body {
 }
 
 .home-content h3 {
-    font-size: 20px;
+    font-size: 30px;
     color: #E0A75E;
 }
 
 .home-content h1 {
-    font-size: 35px;
+    font-size: 43px;
     font-weight: 700;
     margin: 0 0 40px;
 }
@@ -126,7 +126,42 @@ body {
     width: 100%;
 }
 
-.contact-form h2 {
+.home-icon {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    bottom: 40px;
+    width: 100%;
+}
+
+.home-icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #987070;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #987070;
+    text-decoration: none;
+}
+
+.img-box {
+    position: relative;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.img-box img {
+    border-radius: 50%;
+}
+
+/* .contact-form h2 {
     text-align: center;
     margin-top: 3em;
     margin-bottom: 1em;
@@ -157,4 +192,4 @@ body {
     border-radius: .8rem;
     margin: 1rem 0; 
     resize: none;
-}
+} */
