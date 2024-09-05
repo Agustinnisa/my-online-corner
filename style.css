@@ -13,12 +13,12 @@ body {
 }
 
 .header {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
-    background: transparent;
+    padding: 25px 10%;
+    background: #FEFAE0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
@@ -44,39 +44,36 @@ body {
 }
 
 .home {
+    height: 100vh;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
     align-items: center;
-    width: 100%;
-    min-height: 100vh;
-    padding: 30px 12% 0;
+    padding: 0 10%;
 }
 
 .home-content {
-    display: flex;
-    justify-content: center;
-    max-width: 800px;
+    max-width: 650px;
 }
 
 .home-content h3 {
     font-size: 25px;
+    line-height: 1.4;
+    color: #E0A75E;
 }
+
 .home-content h1 {
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 700;
-    line-height: 1.2;
 }
 
 .home-content p {
-    font-size: 15px;
-    margin: 25px 0 30px;
+    font-size: 16px;
+    margin: 20px 0 40px;
     text-align: justify;
 }
 
 .home-content .btn-box {
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     width: 345px;
     height: 50px;
 }
@@ -88,18 +85,24 @@ body {
 }
 
 .btn-box a {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 180px;
+    height: 100%;
     background: #BC9F8B;
     border: 2px solid #BC9F8B;
     border-radius: 8px;
     font-size: 19px;
-    color: #ededed;
+    color: rgba(14, 12, 12, 0.822);
     text-decoration: none;
-    letter-spacing: 1px;
     font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: #987070;
 }
 
 .contact-form h2 {
