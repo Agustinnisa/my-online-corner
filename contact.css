@@ -43,3 +43,86 @@ body {
 .navbar a.nav-link {
     color: #E0A75E;
 }
+
+.contact-form h2 {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+
+.contact-form form {
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contact-form form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.contact-form form .input-box input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 1.5em;
+    font-size: 10px;
+    color: black;
+    background: rgb(209, 205, 187);
+    border-radius: .8rem;
+    margin: 1rem 0; 
+    resize: none;
+}
+
+footer {
+    background-color: #987070;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-credits {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-credits a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-credits a:hover {
+    text-decoration: underline;
+}
