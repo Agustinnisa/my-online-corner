@@ -45,26 +45,31 @@ body {
 }
 
 .training-certificates {
-    background-color: #f9f9f9;
     padding: 40px 20px;
     border-radius: 8px;
-    font-family: Arial, sans-serif;
     margin: 20px auto;
-    max-width: 1200px; /* Diperluas untuk mendukung dua kolom dengan lebih baik */
+    max-width: 1200px;
 }
 
 .training-certificates h2 {
-    font-size: 32px;
+    font-size: 40px;
+    margin-top: 40px;
     margin-bottom: 30px;
-    color: #333;
     text-align: center;
 }
 
-.certificate-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Jarak antar kartu */
-    justify-content: space-between; /* Mengatur ruang antar kartu */
+.training-certificates p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: justify;
+    width: auto;
+    color: #666;
+}
+
+.certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .certificate {
@@ -73,24 +78,49 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    flex: 0 1 calc(50% - 20px); /* Dua kolom per baris dengan jarak antar kartu */
-    box-sizing: border-box;
 }
 
-.certificate h3 {
-    font-size: 24px;
+.certificate h2 {
+    font-size: 20px;
     margin-bottom: 15px;
-    color: #444;
 }
 
 .certificate p {
     margin: 10px 0;
-    color: #555;
 }
 
 .certificate strong {
-    color: #000;
+    color: #E0A75E;
 }
+
+@media (max-width: 768px) {
+    .certificate-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.cta {
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.cta a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #987070;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta a:hover {
+    background-color: #704040;
+}
+
 
 footer {
     background-color: #987070;

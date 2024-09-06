@@ -45,7 +45,8 @@ body {
 }
 
 .portfolio-container {
-    margin-top: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .portfolio {
@@ -126,7 +127,7 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
-    /* margin-top: 100%; */
+    margin-top: auto;
 }
 
 .footer-links {
